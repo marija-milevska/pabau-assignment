@@ -1,0 +1,28 @@
+.grid-display {
+  background-color: #f7f7f7;
+  border: 2px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.grid-row {
+  display: flex;
+}
+
+.grid-cell {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  margin: 1px;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  font-weight: bold;
+}
+
+.current {
+  background-color: #2196f3;
+  color: white;
+}
