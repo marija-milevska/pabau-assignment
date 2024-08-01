@@ -52,16 +52,20 @@ const PathFinder: React.FC = () => {
       if (path.slice(-1) === "s") return;
 
       switch (event.key) {
-        case "ArrowUp":
+        case "w":
+        case "W":
           move({ row: -1, col: 0 });
           break;
-        case "ArrowDown":
+        case "s":
+        case "S":
           move({ row: 1, col: 0 });
           break;
-        case "ArrowLeft":
+        case "a":
+        case "A":
           move({ row: 0, col: -1 });
           break;
-        case "ArrowRight":
+        case "d":
+        case "D":
           move({ row: 0, col: 1 });
           break;
         default:
